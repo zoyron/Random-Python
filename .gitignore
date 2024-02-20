@@ -30,3 +30,6 @@ env/
 # Miscellaneous
 *.DS_Store
 Thumbs.db
+
+# C/C++
+a.out
