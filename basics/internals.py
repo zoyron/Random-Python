@@ -9,5 +9,7 @@ print(list2)
 list1 = [1,2,3]
 list2 = [1,2,3]
 # in this particular example both the lists have same values but we need to remember that these are two different lists at two different locations in the memory, unlike the 1st example where we made just 1 list and pointed 2 different variables  to it
-
-
+print("here \"list1 == list2\" would equate to True but \"list1 is list2\" would equate to false because '==' checks for the same values whereas 'is' checks for the same memory reference ")
+# and these lists might be same in values, but since these are 2 different lists these would occupy different memory locations
+print(list1 == list2)
+print(list1 is list2)
