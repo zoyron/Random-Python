@@ -12,3 +12,9 @@ print(name.split())
 #to avoid the above stuff from happening we give an input to the split method that this is what we want to use for splitting the output list for eg, writing split(", ") would use the comma and space combined as the splittor for the list that would be returned
 
 print(name.split(", "))
+
+# the find method returns the index of the first character of the target substring in the string
+# for eg, find("kulcha") in "butter kulcha" would return 7 since from 7th index the substring "kulcha" starts
+
+x = "butter kulcha"
+print(x.find("kulcha"))
