@@ -9,3 +9,8 @@ for coffee in coffee_types:
 for coffee in coffee_types:
     print(coffee, coffee_types[coffee])
 #this code would print the key value pairs
+
+
+for x,y in coffee_types.items():
+    print(x,y)
+#this also prints the same thing for dictionary as the above example does
