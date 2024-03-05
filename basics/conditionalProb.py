@@ -15,13 +15,19 @@
 
 # weather problem
 
-weather = input("give me the weather condition:")
+#weather = input("give me the weather condition:")
+#
+#if weather == "sunny":
+#    print("go for a walk.")
+#elif weather == "rainy":
+#    print("read a book.")
+#elif weather == "snowy":
+#    print("build a snowman.")
+#else:
+#    print("give a valid input ")
 
-if weather == "sunny":
-    print("go for a walk.")
-elif weather == "rainy":
-    print("read a book.")
-elif weather == "snowy":
-    print("build a snowman.")
+year = int(input("give me a valid year: "))
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 !=0):
+    print(year, " is a leap year")
 else:
-    print("give a valid input ")
+    print(year, "is not a leap year")
