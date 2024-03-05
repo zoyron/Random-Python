@@ -1,13 +1,14 @@
-age = int(input("give me user age: "))
-if age < 13:
-    print("the user is a child")
+day = input("give me a day: ")
+age = int(input("give me an age: "))
+ticket_price = 0
+#if age < 18:
+#    ticket_price = 8
+#else:
+#    ticket_price = 12
+# the other way to write the price is as follows
+ticket_price = 12 if age >= 18 else 8
 
-elif age >= 13 and age <= 19:
-    print("the user is a teenager")
+if day == "wednesday":
+    ticket_price -= 2
 
-elif age >= 20 and age <= 59:
-    print("the user is an adult")
-
-else:
-    print("the user is a senior citizen")
-#not covering the negative age case in this one because of the laziness
+print(ticket_price)
